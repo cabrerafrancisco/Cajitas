@@ -1,5 +1,9 @@
 h1{
     font-size: 50px;
+    text-align: center;
+}
+h4{
+    display: inline;
 }
 .caja{
     display: flex;
@@ -14,8 +18,18 @@ h1{
 }
 
 p{
-    font-size: 25px;
+    font-size: 7px;
     color: black;
     text-align: center;
     text-transform: uppercase;
+}
+.imag{
+    object-fit: cover;
+    width: 100%;
+    height: 100px;
+}
+.ingresoDatos{
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration: solid;
 }
